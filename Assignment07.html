@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Paolo Esguerra CSCI 355 Assignment 07</title>
+    <link rel="stylesheet" href="Assignment07.css">
+</head>
+<body>
+<div class="header">
+    <h1>Paolo Esguerra CSCI 355 Assignment 07: Basic Webpage</h1>
+</div>
+
+<div class="navbar">
+    <div class="dropdown">
+        <button class="dropbtn">Course
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="https://gaia.cs.umass.edu/kurose_ross/eighth.php">Kurose and Ross</a>
+            <a href="http://w3schools.com">w3schools</a>
+            <a href="https://www.geeksforgeeks.org/web-development/ ">geeksforgeeks</a>
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <button class="dropbtn">Browser
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <div class="buttonStyle">
+                <button onclick="navigatorInfo()">Navigator</button>
+            </div>
+            <div class="buttonStyle">
+                <button onclick="windowInfo()">Window</button>
+            </div>
+            <div class="buttonStyle">
+                <button onclick="screenInfo()">Screen</button>
+            </div>
+            <div class="buttonStyle">
+                <button onclick="locationInfo()">Location</button>
+            </div>
+            <div class="buttonStyle">
+                <button onclick="geolocationInfo()">Geolocation</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <button class="dropbtn">About Me
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+
+</div>
+<script src="Assignment07.js"></script>
+</body>
+</html>
